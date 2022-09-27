@@ -1,0 +1,44 @@
+{
+  "compras": [
+    {
+      "id": 1,
+      "item": "Arroz",
+      "quantidade": 5
+    },
+    {
+      "id": 3,
+      "item": "Queijo",
+      "quantidade": 2
+    },
+    {
+      "id": 4,
+      "item": "Picanha",
+      "quantidade": 5
+    },
+    {
+      "item": "Ps4",
+      "quantidade": "1",
+      "id": 5
+    },
+    {
+      "id": 6,
+      "item": "Ps5",
+      "quantidade": "4"
+    },
+    {
+      "id": 7,
+      "item": "Violão",
+      "quantidade": "2"
+    },
+    {
+      "id": 8,
+      "item": "Guitarra",
+      "quantidade": "1"
+    },
+    {
+      "id": 9,
+      "item": "Bateria",
+      "quantidade": "1"
+    }
+  ]
+}

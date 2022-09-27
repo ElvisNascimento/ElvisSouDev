@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        *{
+            /* border: 2px solid black; */
+            text-align: center;
+            color: #fff;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        body{
+            width: 131px;
+        }
+        .table{
+            width: 120px;
+            background-color:#000000;
+        }
+        .table button{
+            border:  1px solid #333;
+            background-color: #111;
+            width: 24px;
+            height: 24px;
+        }
+        .table button:hover{
+            background-color: #666666;
+        }
+        .mostrador{
+            text-align: right;
+        }
+    </style>
+    <table class="table">
+        <tbody>
+            <tr><td colspan="4">Calculadora</td></tr>
+            <tr>
+                <td class="mostrador" colspan="4"  style="background-color: #111;">2+2</td></tr>
+            <tr>
+                <td colspan="2"><button style="width: 100%;">C</button></td>
+                <td><button>/</button></td>
+                <td><button>X</button></td>
+            </tr>
+            <tr>
+                <td><button>7</button></td>
+                <td><button>9</button></td>
+                <td><button>8</button></td>
+                <td><button>-</button></td>
+            </tr>
+            <tr>
+                <td><button>4</button></td>
+                <td><button>5</button></td>
+                <td><button>6</button></td>
+                <td><button>+</button></td>
+            </tr>
+            <tr>
+                <td><button>1</button></td>
+                <td><button>2</button></td>
+                <td><button>3</button></td>
+                <td rowspan="2"><button style="height: 55px;">=</button></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button style="width: 100%;">0</button></td>
+                <td><button>.</button></td>    
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

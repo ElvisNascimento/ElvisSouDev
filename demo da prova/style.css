@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: 1px solid #000; */
+}
+.container{
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+}
+.menuhead{
+    margin: auto;
+    width: 340px;
+    height: 100%;
+}
+.menuhead button, select{
+    border: none;
+    background-color: #fff;
+    margin-left: 2px;
+    width: 62px;
+    height: 99.9%;
+}
+.menuhead button:hover{
+    background-color: red;
+}
+.menuhead select:hover{
+    background-color: red;
+}
+.logo{
+    background-color: red;;
+    width: 70px;
+    height: 99.9%;
+    /* text-align: center; */
+}
+.logo img{
+    width: auto;
+    height: 99.9%;
+}
+.botao{
+    background-color: red;
+    color: #fff;
+    padding-top: 2.5%;
+    width: 90px;
+    height: 99.9%;
+    text-align: center;
+}

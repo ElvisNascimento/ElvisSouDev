@@ -1,0 +1,21 @@
+
+button{
+    background-color: green;
+    border-radius: 12px;
+    padding-right: 30px;
+}
+
+button.azul{
+    background-color: blue;
+    width: 130px;
+    height: 80px;
+}
+button.vermelho{
+    background-color: red;
+    width: 200px;
+    height: 50px;
+}
+p{
+    color: red;
+   
+}

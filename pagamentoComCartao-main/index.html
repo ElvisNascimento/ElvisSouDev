@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pagamentocd.css">
+    <title>Pagamento com Cartão</title>
+</head>
+<body>
+    <div class="main">
+        <div class="header"> 
+            <h3>Pagamento com Cartão</h3>
+            <p>sinta-se seguro utilizando sua conta bancaria. Visa, Maestro,<br> Discover, American Express.</p>
+        </div>
+            <div class="container">
+                <div class="campos">
+                <label for="ncard">Numero do Cartão</label>
+                <input class="ncard" type="number" name="ncard" id="ncard" maxlength="16" placeholder="0000 0000 0000 0000">
+                <!-- numero do cartao -->
+                <br>
+                <label for="nome">Nome</label>
+                <br>
+                <input class="nome" type="text" name="nome" id="nome" placeholder="Nome que está no cartão">
+                <!-- campo nome onde vai ficar o nome do titular do cartao -->
+                <br>
+                <label for="cpf">CPF do Titular</label>
+                <input class="cpf" type="number" name="cpf" id="cpf" maxlength="12" placeholder="000.000.000-00">
+                <!-- campo CPF onde fica o numero do documento cpf do tuitular -->
+                <br>
+                <label for="">Vencimento</label>
+                <input class="vencimento" type="number" id="mes" maxlength="2" minlength="2" min="1"  max="12" placeholder="12">
+                <input class="vencimento" type="number" id="ano" maxlength="2" minlength="2" min="1"  max="99" placeholder="99">
+                <!-- campo data com mes e ano do vencimento do cartao -->
+                <br>
+                <label for="cvv">CVV</label>
+                <input class="cvv" type="number" name="cvv" id="cvv" maxlength="3" placeholder="000">
+                <!-- codigo de validacao do cartao o CVV -->
+                <button class="botao" type="submit">Enviar</button>
+                
+            </div>
+        </div>  
+    </div>
+</body>
+</html>

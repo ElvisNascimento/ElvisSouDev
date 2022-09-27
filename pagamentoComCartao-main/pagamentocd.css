@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    color:#FFF;
+    border-radius: 4px;
+}
+body{
+    background-color: #98ACB8;
+}
+.main{
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #707E87;
+    justify-content:center;
+    align-items:center;
+    width: 400px;
+    height: 400px;
+    box-shadow: 1px 1px 20px #2F3438;
+}
+.header{
+    color: #fff;
+    text-align: left;
+    width: 96%;
+    height: 20%;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 18px;
+}
+.header h3{
+
+}
+.container{
+    background-color:#2F3438;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 360px;
+    height: 240px;
+}
+.campos{
+    width: 70%;
+    height: 70%;
+    padding-top: 20px;
+    padding-left: 14px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.vencimento{
+
+    width: 30px;
+}
+.cvv{
+    width: 40px;
+}
+.botao{
+    border: none;
+    margin-top: 40px;
+    margin-left: 200px;
+    color: #2F3438;
+    width: 70px
+}
+.botao:hover{
+    background-color: #98ACB8;
+
+}

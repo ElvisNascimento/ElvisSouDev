@@ -1,0 +1,45 @@
+
+.navbar{
+    background-color: #333333;
+    width: 100%;
+    /* text-align: right; */
+    /* padding: 20px; */
+    display:flex;    
+}
+
+.navbar div{
+    margin: 40px;
+    text-align: right;
+}
+
+.links{
+    width: 100%;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #666666;
+    border: 0px;
+    margin-right: 20px;
+}
+.navbar a:hover{
+    text-decoration: none;
+    color: #999999;
+    border: 0px;
+    margin-right: 20px; 
+}
+.conteudo{
+    display:flex;  
+}
+.conteudo div{
+    margin-top: 50px;
+    width: 50%;
+    text-align: center;
+}
+.conteudo img{
+    width: 50%;
+    align-self: center;
+    width: 400px;
+    height: 400px;
+}
+
